@@ -10,4 +10,9 @@
 }
 .btn button{
     width: 100%;
+    margin-top: 20px;
+    padding: 4px;
+    background-color: rgb(182, 182, 255);
+    border-radius: 8px;
+    
 }
