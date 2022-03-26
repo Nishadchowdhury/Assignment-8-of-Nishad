@@ -10,7 +10,6 @@ const Cart = (props) => {
 
     const cickedAddCart = props.clickedData;
     const clearCart = props.makeCartEmpty;
-    console.log(clearCart);
 
 
     const [dataToSendInSuggest , setSendInSuggest] = useState([]);

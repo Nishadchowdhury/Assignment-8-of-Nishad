@@ -2,8 +2,14 @@ import React from 'react';
 
 const RandomSuggest = (props) => {
 
-    const {name} = props.data
+    if(!props){
+        alert('plese add some in cart');
+        window.location.reload(true);
+        return;
+    }
 
+    const {name} = props.data
+    
     return (
         <div>
             {name}
