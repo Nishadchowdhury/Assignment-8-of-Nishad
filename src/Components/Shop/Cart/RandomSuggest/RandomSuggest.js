@@ -2,10 +2,11 @@ import React from 'react';
 
 const RandomSuggest = (props) => {
 
-    
+    const {name} = props.data
+
     return (
         <div>
-            ok
+            {name}
         </div>
     );
 };

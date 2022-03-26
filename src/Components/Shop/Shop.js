@@ -16,6 +16,9 @@ const Shop = () => {
 
     
     const [CartData , setCartData] =  useState([]);
+    const makeCartEmpty =()=>{
+        setCartData([])
+    }
 
     const getByClcik = (id) =>{
         const CartDataUniquieFy = CartData.find(data => data.id === id );
@@ -34,8 +37,6 @@ const Shop = () => {
 
       
     }
-
-    // console.log(CartData);
     
     
 
@@ -50,7 +51,7 @@ const Shop = () => {
 
             <div className="cart">
                 <div className="containerCart">
-                <Cart data={cycles} clickedData={CartData} ></Cart>
+                <Cart data={cycles} makeCartEmpty={makeCartEmpty} clickedData={CartData} ></Cart>
                 </div>
             </div>
         </div>
