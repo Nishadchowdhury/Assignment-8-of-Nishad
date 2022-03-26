@@ -1,0 +1,32 @@
+.Cycle{
+    width: 280px;
+    height: 430px;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    position: relative;
+}
+
+.Cycle .img{
+    width: 100%;
+    padding: 5px;
+}
+.Cycle .img img{
+    width: 96%;
+    border-radius: 8px;
+    height: 250px;
+}
+.name{
+    font-size: 25px;
+}
+.info button{
+    width: 96%;
+    height: 50px;
+    background-color: rgb(208, 208, 252);
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border:0;
+}
